@@ -1,0 +1,12 @@
+body{
+    background: url(../res/exist.jpg) ;
+    background-size: cover;
+    width: 100%;
+     }
+
+     p{
+  
+        font-size: xx-large;
+        color: black;
+        text-align: center;
+    }

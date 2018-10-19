@@ -1,0 +1,105 @@
+/* Définition d'une nouvelle police nommée CAC Champagne *************************************/
+@font-face {
+  font-family: "cac_champagneregular";
+  src: url("cac_champagne-webfont.eot");
+  src: url("cac_champagne-webfont.eot?#iefix") format("embedded-opentype"),
+    
+    url("cac_champagne-webfont.ttf") format("truetype"),
+    url("cac_champagne-webfont.svg#cac_champagneregular") format("svg");
+}
+/*style de la couverture**************************************************************************/
+.divCouverture
+ {
+ 
+  background: url(../res/couv.jpg)
+  no-repeat center fixed ; /*scroll*/
+  background-size: cover;
+   width: 100%;
+    padding-top:100px;
+    padding-bottom: 180px;
+}
+/* Utilisation de la police qu'on vient de définir sur les titres************************************* */
+#club 
+ {
+  font-family: "cac_champagneregular";
+  font-weight: bold;
+  font-size:2000px;
+  text-decoration: blink;
+  font-size: 100px;
+  color: rgb(230, 223, 229);
+  text-align: center;
+}
+/*style de la première division***************************************************************************/
+#Apropos {
+  background: url(../res/image2.jpg) no-repeat center top fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  overflow: hidden;
+  padding: 100px 100px 100px 100px;
+ 
+}
+
+/*mise en page de la division "nos évènements"**************************************************************/
+#miseEnPageDivision {
+  width: 400px;
+  margin-top: 1px;
+  margin-bottom: 30px;
+  margin-right: 120px;
+  margin-left: 30px;
+  
+  text-align: justify;
+ 
+  background-color: rgba(232, 245, 114, 0.7); 
+  /* haut | droit | bas | gauche */
+  padding: 20px 20px 20px 20px;
+
+  border-radius: 10px;
+ 
+  color: black;
+
+}
+/*back ground de myDiv*****************************************************************************************/
+.select{
+  background: url(../res/image2.jpg)
+  no-repeat center fixed ; /*scroll*/
+  background-size: cover;
+   width: 100%;
+    padding-top:100px;
+    padding-bottom: 350px;
+}
+/*positionnement des bouton*************************************************************************************/
+#bouton
+ {
+  padding-left:550px;
+ 
+}
+#btn{
+  padding-left:120px;
+}
+
+ 
+
+/* Style all font awesome icons************* ******************************************************************/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+  background:#007bb5;
+  color: white;
+}

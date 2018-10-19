@@ -1,0 +1,67 @@
+.form_col {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 3px 0px;
+    width: 200px;
+    min-height: 1px;
+    text-align: right;
+  }
+  #DivFormulaire {
+    width: 600px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+    padding-bottom: 40px;
+    text-align: justify;
+   
+    background-color: rgba(232, 245, 114, 0.7); 
+    
+    border-radius: 10px;
+    color: black;
+  }
+  #forme{
+    margin-top: 65px;
+    
+    text-align: justify;
+    
+   }
+  @font-face {
+    font-family: "cac_champagneregular";
+    src: url("cac_champagne-webfont.eot");
+    src: url("cac_champagne-webfont.eot?#iefix") format("embedded-opentype"),
+    
+      url("cac_champagne-webfont.ttf") format("truetype"),
+      url("cac_champagne-webfont.svg#cac_champagneregular") format("svg");
+  }
+  .style 
+   {
+    font-family: "cac_champagneregular", Arial, serif;
+    font-style: italic;
+    text-decoration: blink;
+    font-size: xx-large;
+    color: black;
+    text-align: center;
+}
+p{
+  
+    font-size: xx-large;
+    color: black;
+    text-align: center;
+}
+  .formulaire{
+    background: url(../res/form.jpg) no-repeat center top fixed;
+    background-size: cover;
+    width: 100%;
+     }
+     #etudiantExistant{
+      background: url(../res/exist.jpg) ;
+      background-size: cover;
+    height: 100%;
+      width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+     }
+     #ecriture{
+      padding-top: 250px;
+     }
+
